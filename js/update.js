@@ -24,6 +24,8 @@ function updateBox() {
 	// For some odd reason prettyPrintOne puts everything on one line in chromium
 	prettyPrint();
 	old = ugly.value;
+	// Also, for some reason chromium scrolls unnecessarily. WTF Google
+	ugly.scrollTop = 0;
     }
 }
 
