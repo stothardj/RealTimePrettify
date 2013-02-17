@@ -8,9 +8,15 @@
     <script type="text/javascript" src="js/update.js"></script>
   </head>
   <body onload="update()">
-    <div id="container">
-      <textarea onkeyup="update()" id="ugly" class="box-sized muted"></textarea>
-      <pre class="prettyprint" id="pretty"></pre>
-    </div>
+    <div>
+      <div id="container">
+	<textarea onkeyup="update()" id="ugly" class="box-sized muted"></textarea>
+	<pre class="prettyprint extra-line" id="pretty"></pre>
+      </div>
+      <div class="clear">
+      </div>
+      <div class="foot">
+	<a href="index.html">Use split editor</a> <small>Will erase content</small>
+      </div>
   </body>
 </html>

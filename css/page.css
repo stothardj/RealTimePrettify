@@ -1,3 +1,9 @@
+/* Small reset */
+div, textarea, pre {
+    margin: 0;
+    padding: 0;
+}
+
 .left {
     float: left;
 }
@@ -6,10 +12,17 @@
     float: right;
 }
 
+.clear {
+    clear: both;
+}
+
+.extra-line {
+    padding-bottom: 1.15em; /* A bit more than one additional line of text. */
+}
+
 #pretty{
-    margin: 0;
-    padding: 0;
     border: solid 1px #CCCCCC;
+    min-height: 100px;
 }
 
 .muted {
@@ -30,24 +43,19 @@
 
 #container {
     position: relative;
-    margin: 0;
-    padding: 0;
 }
 
 #ugly {
+    min-height: 100px;
     height: 100%;
     overflow: hidden;
     position: absolute;
     width: 100%;
-    margin: 0;
-    padding: 0;
     border: solid 1px #CCCCCC;
 }
 
+
 #textCopy {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 1.15em; /* A bit more than one additional line of text. */ 
     visibility: hidden;
     width: 100%;
 }
@@ -59,4 +67,11 @@ pre {
     white-space: -pre-wrap;      /* Opera 4-6 */
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/* Currently only have 1 link */
+.foot {
+    position: absolute;
+    right: 0px;
+    margin: 10px;
 }

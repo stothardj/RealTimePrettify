@@ -8,10 +8,16 @@
     <script type="text/javascript" src="js/update.js"></script>
   </head>
   <body onload="update()">
-    <div id="container" class="half-width left">
-      <textarea onkeyup="update()" id="ugly" class="box-sized"></textarea>
-      <pre id="textCopy" class="box-sized"></pre>
+    <div>
+      <div id="container" class="half-width left">
+	<textarea onkeyup="update()" id="ugly" class="box-sized"></textarea>
+	<pre id="textCopy" class="box-sized extra-line"></pre>
+      </div>
+      <pre class="prettyprint half-width right" id="pretty"></pre>
+      <div class="clear"></div>
     </div>
-    <pre class="prettyprint half-width right" id="pretty"></pre>
+    <div class="foot">
+      <a href="overlay.html">Use overlay editor</a> <small>Will erase content</small>
+    </div>
   </body>
 </html>
