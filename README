@@ -1,0 +1,8 @@
+Ever want to just inspect a snippet of code without having to leave your browser. This project aims to be the downright simplest way to have a piece of code highlighted for you.
+
+
+This project is hosted out of S3. See it here:
+http://pretty-highlight.s3-website-us-east-1.amazonaws.com/
+
+I haven't formally attached a license to this, but do whatever you want with the code. It was written in an afternoon.
+
