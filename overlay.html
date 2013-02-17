@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Real time prettify</title>
+    <link href="css/prettify.css" type="text/css" rel="stylesheet" />
+    <link href="css/page.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/prettify.js"></script>
+    <script type="text/javascript" src="js/update.js"></script>
+  </head>
+  <body onload="update()">
+    <div id="container">
+      <textarea onkeyup="update()" id="ugly" class="box-sized muted"></textarea>
+      <pre class="prettyprint" id="pretty"></pre>
+    </div>
+  </body>
+</html>
